@@ -1,0 +1,135 @@
+/* Daftar */
+
+/* Style untuk label */
+.nama-email label {
+	display: block;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.daftar-form label{
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+/* Style untuk input text */
+.daftar-form input{
+    height: 20px;
+    width: 90%;
+    outline: none;
+    border: 1px solid #a29bfe;
+    border-radius: 25px;
+    padding: 9px;
+    font-size: 12px;
+    transition: all 0.3s ease;
+}
+
+textarea {
+	padding: 10px;
+	border-radius: 25px;
+	border: 1px solid #a29bfe;
+	font-size: 16px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/* Style untuk select option */
+select {
+	height: 35px;
+    width: 20%;
+	margin-top: 25px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #a29bfe;   
+    transition: all 0.3s ease;
+}	
+
+/* Style untuk radio button dan checkbox */
+.radio input[type="radio"],
+.checkbox input[type="checkbox"] {
+	margin:auto;
+}
+
+
+/* Style untuk tombol submit */
+.btn{
+	background-color: #6c5ce7;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #a29bfe;
+}
+
+/* Style untuk text area */
+textarea {
+	height: 150px;
+	resize: none;
+}
+
+/* Style untuk form */
+.daftar-form form {
+	 margin: 50px 450px 100px 450px;
+    padding: 50px 50px 40px 50px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.daftar-form{
+  margin-top: 50px;
+  position: relative;
+  padding: auto;
+  width: 100%;
+  
+}
+/* .radio{
+  display: flex;
+  align-items: center;
+} */
+/* .checkbox{
+  display: flex;
+  align-items: center;
+  
+} */
+
+.daftar-form h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+/* Daftar End */
+
+/* custom checkbox */
+
+/* .checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.check {
+    position: relative;
+	margin-top: 10px;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ca4040;
+    border: 1px solid #995757;
+} */

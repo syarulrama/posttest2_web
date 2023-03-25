@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <title>Daftar</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <a href="beranda.html" class="logo"><img src="../img/logoweb.png" width="200px"><a>
+                    <ul>
+                        <li><a href="galeri.html">Galeri</a></li>
+                        <li><a href="destinasi.html">Destinasi</a></li>
+                        <li><a href="daftar.html">Daftar</a></li>
+                        <li></li>
+                        <li class="dropdown">
+                            <a href="javascript:void{0}" >Welcome <span id='hello'></span></h2><i class="fa-regular fa-user"></i></a>
+                            <div class="dropcontent">
+                                <a href="index.html"><p><i class="fa-solid fa-right-from-bracket"></i> Log Out</p></a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+  <div class="daftar-form">
+        
+      <form >
+        <div class="nama-email">
+        <h2>Daftar</h2>
+        <label for="name">Nama:</label>
+        <input type="text" id="nama" name="name"><br>
+          
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+      </div>
+        <label for="select-option">Tahun lahir:</label>
+        <select id="select-option" name="option">
+          <option value="2000">2000</option>
+          <option value="option2">2001</option>
+          <option value="option3">2002</option>
+          <option value="2003">2003</option>
+          <option value="option2">2003</option>
+          <option value="option3">2004</option>
+          <option value="option1">2005</option>
+          <option value="option2">2006</option>
+          <option value="option3">2007</option>
+          <option value="option1">2008</option>
+          <option value="option2">2009</option>
+          <option value="option3">2010</option>
+        </select><br> <br>
+        
+        <br>
+        <label for="radio">Jenis Kelamin:</label><br> 
+        <input type="radio"  name="radio" value="Laki-laki">Laki-laki <br>
+        <input type="radio" name="radio" value="Perempuan">Perempuan <br>
+        <br>
+        
+        <h4>Kemana anda ingin berlibur ?</h4>
+        <div class="checkbox">
+          <input type="checkbox" id="destinasi1" name="checkbox" value="Biduk-Biduk">
+          <label class="check" for="destinasi1"> Biduk-Biduk</label><br>
+          <input type="checkbox" id="destinasi2" name="checkbox" value="Derawan">
+          <label class="check" for="destinasi2"> Derawan</label><br>
+          <input type="checkbox" id="destinasi3" name="checkbox" value="Sulaiman">
+          <label class="check" for="destinasi3"> Sulaiman</label><br>
+          <input type="checkbox" id="destinasi4" name="checkbox" value="Maratua">
+          <label class="check" for="destinasi4"> Maratua</label>  
+      </div> <br>
+
+        <label for="alamat">Masukkan alamat lengkap anda :</label>
+        <textarea type="text" id="alamat" name="alamat" required></textarea><br>
+
+
+
+     <a class="btn" onclick="simpan()" href="form.html">Daftar</a>
+      </form>
+    </div>
+<footer>
+    <p>2023 Syahrul Ramadhana</p>
+</footer>
+<script src="../js/daftar.js"></script>
+</body>
+</html>
